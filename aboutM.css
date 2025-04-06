@@ -8,6 +8,9 @@ nav ul li a{
     background-color:white;
     padding: 5px;
     border-radius: 5px;
+    transition: .5s;
+    display: inline-block;
+
     
    
 
@@ -22,6 +25,8 @@ nav ul li a{
     margin-top: 15px;
     margin-left: 5px;
     position: fixed;
+    color: #4d6cab;
+    
     
 
     
@@ -69,3 +74,32 @@ h1{
     object-fit: cover;
     
 }
+ul{
+    list-style: none;
+    
+
+}
+ul li :hover {
+    color: #4d6cab;
+    transform: scale(1.1);
+    
+}
+li{
+    color: rgb(190, 154, 106);
+}
+@media(max-width:400px){
+    .pic  {
+        width: 200px;
+        height: 200px;
+    }
+
+}
+@media(max-width:320px){
+    .pic  {
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
+
